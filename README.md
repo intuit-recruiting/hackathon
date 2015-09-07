@@ -13,7 +13,7 @@ To get started, make sure you have node.js installed as well as bower.
 #### Mac OSX
 install macbrew http://brew.sh/
 install node.js `brew install node`
-install bower `sudo npm install bower -g`
+install bower `sudo npm install bower grunt-cli -g`
 
 #### Windows
 TODO
@@ -25,3 +25,4 @@ After your environment is set up
 `npm install`
 `bower install`
 
+#### Run the template project
