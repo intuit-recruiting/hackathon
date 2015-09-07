@@ -26,3 +26,9 @@ After your environment is set up
     bower install
 
 #### Run the template project
+
+Make sure current directory is where `Gruntfile.js` is located
+
+    grunt serve
+
+should open up the template in your web browser
