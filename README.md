@@ -8,4 +8,20 @@ This git repository contains the template project for the intuit hackathon. Your
 
 This skeleton project is based on a npm, grunt and jquery. You are free to use any other technology.
 
+To get started, make sure you have node.js installed as well as bower. 
+
+#### Mac OSX
+install macbrew http://brew.sh/
+install node.js `brew install node`
+install bower `sudo npm install bower -g`
+
+#### Windows
+TODO
+
+
+After your environment is set up
+
+`cd your-project-directory`
+`npm install`
+`bower install`
 
