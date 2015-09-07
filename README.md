@@ -21,8 +21,8 @@ TODO
 
 After your environment is set up
 
-`cd your-project-directory
-npm install
-bower install`
+    cd your-project-directory
+    npm install
+    bower install
 
 #### Run the template project
