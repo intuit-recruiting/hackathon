@@ -32,3 +32,45 @@ Make sure current directory is where `Gruntfile.js` is located
     grunt serve
 
 should open up the template in your web browser
+
+## Data Sources
+
+You are given 3 different data sources to complete this project, here's description about each data source and how you can go about incorporating it into your app.
+
+
+#### Turbotax Answer Exchange Data
+
+You can download the TurboTax answer exchange data here:
+
+https://www.dropbox.com/s/5bc58el3v3ohwaw/output.csv.zip
+
+once unzipped, this is a csv file with question and answers, the file has a schema of
+
+`Post ID,	Subject,    Details,	Created At,	Edition,	Platform,	Question, Tags,	State,	Reply,	Replied At`
+
+You can use the information here as a data source to enrich the content returned by your application.
+
+#### Turbotax Blog Data
+
+#### Turbotax Youtube Data
+
+The turbotax youtube channel is located at 
+
+https://www.youtube.com/user/TurboTax
+
+You can use the youtube data API
+
+https://developers.google.com/youtube/
+
+To pull data from the youtube channel in order to enrich the content in your application.
+
+## TaxCaster Library
+
+The TaxCaster library can be used to make tax specific calcuations. It is located in the `/lib` folder of the project. 
+
+To use the library, you can include it in your `index.html` and call its tax calc functions. 
+
+The general workflow of using TaxCaster is to set state variables on the `TaxReturn` global object and then calling the `TaxReturn.calcTax()` function. You can access the resulting refund on the `TaxReturn.refund` variable.
+
+
+
