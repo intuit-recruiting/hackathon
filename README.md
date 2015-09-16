@@ -13,14 +13,15 @@ To get started, make sure you have node.js installed as well as bower.
 #### Mac OSX
 install macbrew http://brew.sh/
 install node.js `brew install node`
-install bower `sudo npm install bower grunt-cli -g`
 
 #### Windows
-TODO
+To install node on windows, follow these steps
+http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 
 After your environment is set up
 
+    sudo npm install bower grunt-cli -g
     cd your-project-directory
     npm install
     bower install
