@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This git repository contains the template project for the intuit hackathon. Your goal is to build an app which leverages intuit and public datasets to allow customers to understand the changes in their lives better.
+This git repository contains the template project for the intuit hackathon. Your goal is to build an app which leverages intuit and public datasets to allow customers to understand the changes in their lives better. You really don't have to use any of the code here there's some other technology you are more comfortable with. However this is a great way to get started.
 
 ## Skeleton
 
@@ -52,6 +52,27 @@ once unzipped, this is a csv file with question and answers, the file has a sche
 You can use the information here as a data source to enrich the content returned by your application.
 
 #### Turbotax Blog Data
+
+You can download all of the turbotax blog data from here:
+
+https://www.dropbox.com/s/asjh5oz5jgle99x/tt_blog.json?dl=0
+
+This is a json file with all of the turbotax blog data in one giant array, with each entry in the array representing one Turbotax Blog entry. The format is
+
+    [
+        {
+            "title": "blog post title",
+            "published": "March 29, 2012",
+            "author": "Clarence Huang",
+            "category": "Business Income",
+            "body": "main contain <span>HTML</span> content of the blog as well as <img>..."
+        },
+        {
+        ...
+        ...
+        }
+    ]
+
 
 #### Turbotax Youtube Data
 
